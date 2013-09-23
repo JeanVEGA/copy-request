@@ -9,6 +9,25 @@
 	<parent>
 		<groupId>eu.prvaci</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</parent>
+
+	<properties>
+		<test.templates.version>1.0.2</test.templates.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${http.client.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>eu.prvaci</groupId>
+			<artifactId>test-templates</artifactId>
+			<version>${test.templates.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
