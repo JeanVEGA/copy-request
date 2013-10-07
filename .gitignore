@@ -7,3 +7,4 @@ target
 *.log
 *.tlog
 *.error
+src/main/webapp/META-INF
